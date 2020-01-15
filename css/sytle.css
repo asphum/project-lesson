@@ -1,0 +1,242 @@
+html {
+  font-family: "Sarabun", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.35;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.p-1 {padding: 5px;} .p-2 {padding: 10px;} .p-3 {padding: 15px;}
+.m-1 {margin: 5px;} .m-2 {margin: 10px;} .m-3 {margin: 15px;}
+.container {
+  width: 960px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -150px;
+}
+.header {
+  background-image: url(../images/bg-header.jpg);
+  height: 700px;
+}
+.menubar {
+  height: 60px;
+  width: 960px;
+  background-color: #fff;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 10px 10px 10px;
+}
+.logo {
+  float: left;
+}
+.logo a {
+  text-align: center;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.logo a:hover {
+  color: red;
+  font-size: 1.5rem;
+}
+.menu {
+  width: 500px;
+  float: right;
+  text-align: right;
+}
+.social {
+  width: 180px;
+  float: right;
+  text-align: center;
+}
+.header .menubar .menu ul,
+.social ul {
+  margin: 0;
+  padding: 0;
+}
+.header .menubar .menu ul li,
+.social ul li {
+  display: inline;
+  padding: 5px;
+}
+.link-menu {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.link-menu:hover,
+.link-active {
+  color: red;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.content-head {
+  text-align: center;
+  padding: 120px;
+}
+.content-head p {
+  color: #fff;
+}
+.text-head {
+  color: #fff;
+  padding: 12px;
+  font-size: 3rem;
+  font-weight: 700;
+}
+.btn-head {
+  background-color: #f93f3f;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+.btn-head:hover {
+  background-color: #444;
+  color: #fff;
+}
+.card {
+  display: flex;
+
+}
+.card-head {
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+ 
+}
+.card-head-bg {
+  position: relative;
+}
+.card-head-text {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+.card-icon {
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+.card-head-icon {
+  height: 200px;
+  width: 100px;
+  color: #fdb670;
+  font-size: 4rem;
+  text-align: center;
+}
+.card-head-title {
+  color: #000;
+  float: right;
+  text-align: left;
+  font-size: 1.2rem;
+  font-weight: 700;
+  height: 200px;
+  width: 200px;
+}
+.card-head-title p {
+  font-size: 1rem;
+}
+.card-head-title a {
+  color: #fdb670;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  display: block;
+}
+.card-head-title a:hover {
+  color: #444;
+
+}
+
+.content {
+  background-color: #ebebeb;
+  overflow: hidden;
+  position: relative;
+}
+.content-img img {
+  width: 400px;
+  padding: 30px 0 30px 0;
+
+}
+.content-text {
+  background-color: #FFF;
+  padding: 40px;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+}
+
+.footer {
+  background-color: #797979;
+  height: 150px;
+
+}
+.info {
+  padding: 20px;
+  text-align: center;
+  float: left;
+  width: 400px;
+}
+.info p {
+  color: #FFF;
+  
+}
+.social-foot {
+  padding: 20px;
+}
+.social-foot ul {
+  margin: 0;
+  padding: 0;
+}
+.social-foot ul li {
+  display: inline;
+  padding: 5px;
+}
+.social-foot ul li a {
+  color: #FFF;
+}
+.social-foot ul li a:hover {
+  color: #444;
+}
+.inputsub {
+  color: #FFF;
+  font-size: 1.2rem;
+  float: right;
+  padding: 20px;
+  width: 400px;
+}
+.inputsub input {
+  border: none;
+  color: #000;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+}
+.inputsub button {
+ background-color: #2d54f9;
+ padding: 5px 15px;
+ border: none;
+ cursor: pointer;
+ color: #FFF;
+ font-size: 1.2rem;
+ font-weight: 700;
+  
+}
+.inputsub button:hover {
+ background-color: #444;
+
+  
+}
